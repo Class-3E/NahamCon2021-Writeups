@@ -1,6 +1,6 @@
 ### Basic Return Oriented Programming Buffer Overflow
 
-This challenge was a very basic pwn challenge in which what we had to do was find the offset at which the Buffer Overflow occured and then re write the EIP with the Address of the win function. The address of the win function can be found like so : 
+This challenge was a very basic pwn challenge in which what we had to do was find the offset at which the Buffer Overflow occured and then re write the RIP with the Address of the win function. The address of the win function can be found like so : 
 ```bash
 ./gdb ./ret2basic
 gdb-peda$ info functions
